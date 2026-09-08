@@ -1,0 +1,33 @@
+footer {
+    border-top: 1px solid #cecece;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 39px;
+}
+
+footer .footleft {
+    margin-left: 24px;
+}
+
+footer .footright {
+    margin-right: 24px;
+}
+
+.footleft a, .footright a {
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.footleft a {
+    margin-left: 5px;
+}
+
+.footright a {
+    margin-right: 5px;
+}
+
+.footleft a:hover, .footright a:hover {
+    color: #646464;
+}
